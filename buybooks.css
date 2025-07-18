@@ -1,0 +1,88 @@
+img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    bottom: 0%;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family:cambria;
+    color: #47034b;
+    background-color: rgb(245, 238, 229);
+    margin: 0%;
+}
+
+#tagline{
+    text-align: center;
+    font-style: italic;
+    font-size:40px;
+    background: #cfdfaf;
+    width: 40%;
+    height: 120px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 60px;
+}
+
+#div1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#school{
+    font-size: 200%;
+    background: #8ca876;
+    text-align: center;
+    height: 50px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#div2{
+    /* height: 400px; */
+    width: 35%;
+    background: #c0dbb6;
+    border-radius: 20px 0 0 20px;
+}
+
+#div3{
+    /* height: 400px; */
+    width: 35%;
+    background: #c0dbb6;
+    border-radius: 0 20px 20px 0;
+}
+
+#college{
+    font-size: 200%;
+    background: #8ca876;
+    text-align: center;
+    height: 50px;
+    margin: 5px;
+    border-radius: 20px;
+}
+#divondiv{
+    display: flex;
+    justify-content: center;
+}
+
+#fifth{
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 1px;
+    background: #a7bf8d;
+}
+
+#note{
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+}

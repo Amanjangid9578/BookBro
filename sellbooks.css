@@ -1,0 +1,77 @@
+#divlogo{
+    background: #f9e1d4;
+    margin: 0px;
+}
+
+#logotext{
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+#button11{
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 1px;
+    background: #e8bba3;
+    position:fixed;
+    margin-top: 20px;
+}
+
+#parentdiv{
+    display: flex;
+    width: 100%;
+}
+
+#div11{
+    background-color: #f9e1d4;
+    width: 32%;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+h3{
+    margin-top: 90px;
+    text-align: center;
+    color: rgb(126, 101, 71);
+    font-size: 150%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logoqr{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+#div12{
+    background-color: #f9cbb2;
+    width: 27%;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#steps{
+    margin-left: 30px;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 10px;
+}
+
+#div13{
+    background-color: #f6c1a4;
+    width: 30%;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
