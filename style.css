@@ -1,40 +1,106 @@
+body{
+    background:linear-gradient(to bottom,#2c11c4, #000);
+}
+
+#logo{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, rgb(11, 55, 229), rgb(13, 25, 76));
+}
+
 img{
-    width: 50px;
+    width: 80px;
     display: block;
     margin: auto;
     bottom: 0%;
+    /* background: linear-gradient(to bottom, rgb(236, 210, 175), rgb(245, 238, 229)); */
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
     font-size: 50;
     text-align: center;
     font-family:cambria;
-    color: #47034b;
-    background-color: rgb(245, 238, 229);
+    color: #d9d6f3;
+    background: linear-gradient(to bottom, rgb(13, 25, 76), #240ea1);
     margin: 0%;
+}
+
+#buttontop{
+    height: 70px;
+    width: 350px;
+    background:linear-gradient(to bottom, #240ea1, #170965);
+    display: block;
+    margin: auto;
+    border-radius: 0 0 0 0;
+    
 }
 
 #butt1{
     width: 300px;
-    margin-left: 450px;
     margin-top: 30px;
     height: 60px;
-    border-radius: 35px 0 0 35px ;
+    border-radius: 35px 35px 0 0 ;
     border: 1;
     border-width: 2;
     font-size: 25;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(168, 240, 187);
+    background-color: rgb(145, 166, 243);
+    display: block;
+    margin: auto;
+    margin-bottom: 0px;
+    border-top: #d9d6f3;
+    border-left: #d9d6f3;
+    border-right: #d9d6f3;
+    border-width: 7px;
 }
 
 #butt2{
     width: 300px;
     height: 60px;
-    border-radius: 0 30px 30px 0 ;
+    border-radius: 0 0 30px 30px ;
     border: 1;
     border-width: 2;
     font-size: 25;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(168, 240, 187);
+    background-color: rgb(145, 166, 243);
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+    border-top: #d9d6f3;
+    border-left: #d9d6f3;
+    border-right: #d9d6f3;
+    border-width: 7px;
+}
 
+#divtopblank{
+    width: 350px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    background: #240ea1;
+}
+
+#divbuttonback{
+    background:linear-gradient(to bottom, #170965, #240ea1);
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 165px;
+    border-radius: 0 0 50px 50px;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    font-family: monospace;
+    color: #d9d6f3;
+}
+
+#quote{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Palatino Linotype;
+    color: aliceblue;
 }
