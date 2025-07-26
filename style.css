@@ -209,61 +209,6 @@ body{
     padding-bottom: 0px;
 }
 
-#motionmodulediv{
-    margin: 30px;
-    background: #7875dc;
-    border-radius: 50px;
-    height: 280px;
-    width: 765px;
-    display:flex;
-}
-
-#motionmoduleimg{
-    width: 230px;
-    height: 230px;
-    justify-self: left;
-    margin-left:25px;
-    border-radius: 30px;
-}
-
-#motionmodule{
-    margin: 25px;
-    font-size: 40px;
-    font-family: monospace;
-    height: 150px;
-    width: 400px;
-    margin-right: 60px;
-}
-
-.rate{
-    position: absolute;
-    margin-top: 190px;
-    margin-left: 310px;
-    font-size: 60px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#motionmodulechat{
-    position: absolute;
-    margin-top: 180px;
-    margin-left: 500px;
-    height: 75px;
-    width: 150px;
-    border-radius: 50px;
-    font-family: monospace;
-    border-width: 0 0 7px 0;
-    border-color: rgb(60, 55, 131);
-    border-style: solid;
-    background:repeating-linear-gradient(45deg, #a396f7, #b8c3f8 10px, #a396f7 20px);
-    font-size: 35px;
-}
-
-#motionmodulechat:hover{
-    border-width: 7px 0 0 0;
-}
-
-/* UNDERSTANDING DIVIDER */
-
 #bookspecificdiv{
     margin: 30px;
     background: #7875dc;
