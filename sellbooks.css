@@ -1,77 +1,140 @@
-#divlogo{
-    background: #f9e1d4;
-    margin: 0px;
+*{
+    margin: 0;
 }
 
-#logotext{
+body{
+    background:repeating-radial-gradient(circle, #959df7, #c9c6f3 5px, #959df7 10px);
+}
+
+#logodiv{
+    width: 100%;
+    height: 170px;
+    background:linear-gradient(to bottom, #7f89f5, #9890fd);
+}
+
+#back{
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 110px;
+    height: 60px;
+    font-family: monospace;
+    font-size: 30px;
+    border-radius: 30px;
+    border-width: 4px 0 0 0;
+    border-color: rgb(68, 61, 171);
+    border-style: solid;
+    background: #717cf9;
+    color: #292363;
+}
+
+#back:hover{
+    border-width: 5px 0 0 0;
+}
+
+#logo{
+    width: 140px;
     display: block;
     margin: auto;
-    width: 400px;
+    bottom: 0%;
+}
+
+#logotxt{
+    font-size: 100px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2e2a58;
+    background: linear-gradient(to bottom, #9890fd, #a9b0fd);
+    margin: 0%;
+    border-radius: 0 0 80px 80px ;
+    border-width: 0 0 8px 0;
+    border-color: rgb(60, 54, 114);
+    border-style: solid;
 }
 
 #button11{
-    width: 30%;
-    height: 50px;
+    width: 720px;
+    height: 120px;
     text-align: center;
-    font-size: xx-large;
+    font-size: 55px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    border-radius: 20px;
-    margin: 10px;
-    border-width: 1px;
-    background: #e8bba3;
-    position:fixed;
-    margin-top: 20px;
+    border-radius: 70px;
+    border-width: 0 0 10px 0;
+    background: rgb(184, 179, 247);
+    position:absolute;
+    margin-top: 45px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: rgb(28, 23, 101);
+    color: #1b1749;
 }
 
-#parentdiv{
+#button11:hover{
+    border-width: 10px 0 0 0;
+    background: rgb(173, 167, 246);
+    border-color: #8985fc;
+}
+
+.parentdiv{
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 #div11{
-    background-color: #f9e1d4;
-    width: 32%;
-    height: 500px;
-    margin-top: 30px;
-    margin-left: 40px;
-    border-radius: 20px;
+    background-color: #8985fc;
+    width: 800px;
+    height: 1000px;
+    margin-top: 60px;
+    border-radius: 90px;
+    border-width: 0 0 11px 0;
+    border-color: rgb(28, 23, 101);
+    border-style: solid;
 }
 
 h3{
-    margin-top: 90px;
+    margin-top: 200px;
+    margin-bottom: 50px;
     text-align: center;
-    color: rgb(126, 101, 71);
-    font-size: 150%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(33, 22, 97);
+    font-size: 50px;
+    font-family:monospace;
 }
 
 #logoqr{
-    width: 350px;
+    width: 600px;
     display: block;
     margin: auto;
+    border-radius: 50px;
+    border-width: 0 0 11px 0;
+    border-color: rgb(121, 78, 52);
+    border-style: solid;
+}
+
+#logoqr:hover{
+    border-width: 10px 0 0 0;
+    border-color: #8985fc;
 }
 
 #div12{
-    background-color: #f9cbb2;
-    width: 27%;
-    height: 500px;
-    margin-top: 30px;
-    margin-left: 40px;
+    background-color: #8985fc;
+    width: 800px;
+    height: 655px;
+    margin-top: 80px;
     border-radius: 20px;
+    border-radius: 90px;
+    border-width: 0 0 11px 0;
+    border-color: rgb(27, 28, 71);
+    border-style: solid;
+    margin-bottom: 100px;
 }
 
 #steps{
-    margin-left: 30px;
-    font-family:'Times New Roman', Times, serif;
-    margin-right: 10px;
-}
-
-#div13{
-    background-color: #f6c1a4;
-    width: 30%;
-    height: 500px;
-    margin-top: 30px;
-    margin-left: 40px;
-    border-radius: 20px;
+    margin-left: 80px;
+    font-family:monospace;
+    margin-right: 50px;
+    font-size: 50px;
+    margin-top: 60px;
+    color: #1b1749;
 }
