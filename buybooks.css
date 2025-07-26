@@ -1,97 +1,285 @@
+*{
+    margin: 0;
+}
+
+body{
+    background:repeating-radial-gradient(circle, #959df7, #c9c6f3 5px, #959df7 10px);
+}
+
 #logodiv{
     width: 100%;
-    height: 100px;
-    background: linear-gradient(to bottom, #c8e68d, #e0eec4);
+    height: 170px;
+    background:linear-gradient(to bottom, #7f89f5, #9890fd);
+}
+
+#back{
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 110px;
+    height: 60px;
+    font-family: monospace;
+    font-size: 30px;
+    border-radius: 30px;
+    border-width: 4px 0 0 0;
+    border-color: rgb(68, 61, 171);
+    border-style: solid;
+    background: #717cf9;
+    color: #292363;
+}
+
+#back:hover{
+    border-width: 5px 0 0 0;
 }
 
 img{
-    width: 80px;
+    width: 140px;
     display: block;
     margin: auto;
     bottom: 0%;
 }
 
-h1{
-    font-size: 50px;
+img:hover{
+    animation: zoomFade 0.6s ease forwards;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+@keyframes zoomFade {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#logotext{
+    font-size: 100px;
     text-align: center;
-    font-family:cambria;
-    color: #47034b;
-    background: linear-gradient(to bottom, #e0eec4, #ffffff);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2e2a58;
+    background: linear-gradient(to bottom, #9890fd, #a9b0fd);
     margin: 0%;
+    border-radius: 0 0 80px 80px ;
+    border-width: 0 0 8px 0;
+    border-color: rgb(60, 54, 114);
+    border-style: solid;
 }
 
 #tagline{
     text-align: center;
     font-style: italic;
-    font-size:40px;
-    background: #cfdfaf;
-    width: 40%;
-    height: 120px;
-    align-content: center;
-    justify-content: center;
     border-radius: 60px;
+    margin-top: 0px;
+    padding-top: 15px;
+    font-size: 50px;
+    color: #090231;
+    font-family: monospace;
 }
 
 #div1{
     align-items: center;
     justify-content: center;
     display: flex;
+    background:linear-gradient(to bottom, #959df7, #9692fa);
+    width: 550px;
+    display: block;
+    margin: auto;
+    height: 170px;
+    border-radius: 0 0 70px 70px;
+    border-width: 0 0 8px 0;
+    border-color: rgb(59, 57, 114);
+    border-style: solid;
+}
+
+#div1:hover{
+    background:radial-gradient(circle, #959df7, #6f6bf4, #959df7);
 }
 
 #school{
-    font-size: 200%;
-    background: #8ca876;
+    font-size: 40px;
+    background: #6a66d2;
     text-align: center;
     height: 80px;
+    width: 390px;
     margin: 5px;
-    border-radius: 20px;
+    border-radius: 60px;
+    border-width: 7px 0 0 0;
+    border-color: rgb(28, 23, 101);
+    border-style: solid;
+    color: #201b4b;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
 
 #div2{
-    /* height: 400px; */
-    width: 35%;
-    background: #c0dbb6;
-    border-radius: 20px 0 0 20px;
+    height: 1140px;
+    width: 430px;
+    background: #8985fc;
+    border-radius: 60px 0 0 80px;
+    border-width: 0 0 8px 0;
+    border-color: rgb(59, 45, 92);
+    border-style: solid;
 }
 
 #div3{
-    /* height: 400px; */
-    width: 35%;
-    background: #c0dbb6;
-    border-radius: 0 20px 20px 0;
+    height: 1140px;
+    width: 430px;
+    background: #8985fc;
+    border-radius: 0 65px 80px 0;
+    border-width: 0 0 8px 0;
+    border-color: rgb(59, 45, 92);
+    border-style: solid;
 }
 
 #college{
-    font-size: 200%;
-    background: #8ca876;
+    font-size: 40px;
+    background: #6a66d2;
     text-align: center;
+    width: 400px;
     height: 80px;
-    margin: 5px;
-    border-radius: 20px;
+    margin-top: 20px;
+    border-radius: 60px;
+    border-width: 7px 0 0 0;
+    border-color: rgb(28, 23, 101);
+    border-style: solid;
+    color: #201b4b;
+    margin-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
+
+#separatordiv{
+    width: 100%;
+    height: 30px;
+}
+
 #divondiv{
     display: flex;
     justify-content: center;
 }
 
-#fifth{
-    width: 70%;
+.fifth{
+    width: 300px;
     height: 100px;
     text-align: center;
-    font-size: xx-large;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    border-radius: 20px;
-    margin: 10px;
-    border-width: 1px;
-    background: #a7bf8d;
+    /* border-radius: 50px; */
+    margin: 20px;
+    background: rgb(162, 160, 252);
     display: block;
     justify-content: center;
     align-items: center;
+    border-width: 0 0 6px 0;
+    border-color: #433579;
+    border-style: solid;
+    margin-left: 61px;
+}
+
+.fifth:hover{
+    border-width: 3px 0 0 0;
+    background: #9a96ff;
 }
 
 #note{
     text-align: center;
-    font-size: 200%;
+    font-size: 40px;
     font-style: italic;
+    margin-top: 20px;
+    color: rgb(13, 2, 69);
+    font-family: monospace;
+}
+
+.buttonborder{
+    border-radius: 50px 50px 0 0;
+}
+
+.buttonborderbottom{
+    border-radius: 0 0 50px 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#mainbox{
+    width: 830px;
+    background: #8985fc;
+    border-radius: 70px 70px 80px 80px;
+    border-width: 0 0 8px 0;
+    border-color: rgb(59, 45, 92);
+    border-style: solid;
+    margin-top: 40px;
+}
+
+#jee{
+    font-size: 40px;
+    background: #6a66d2;
+    text-align: center;
+    height: 70px;
+    width: 765px;
+    border-radius: 60px;
+    border-width: 7px 0 0 0;
+    border-color: rgb(28, 23, 101);
+    border-style: solid;
+    color: #201b4b;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+#bookspecificdiv{
+    margin: 30px;
+    background: #7875dc;
+    border-radius: 50px;
+    height: 280px;
+    display:flex;
+}
+
+#bookspecificimage{
+    width: 230px;
+    justify-self: left;
+    margin-left:25px;
+    border-radius: 30px;
+}
+
+#bookspecificname{
+    margin: 25px;
+    font-size: 40px;
+    font-family: monospace;
+    height: 150px;
+    width: 400px;
+    margin-right: 60px;
+}
+
+.rate{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 310px;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#chatbutton{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 500px;
+    height: 75px;
+    width: 150px;
+    border-radius: 50px;
+    font-family: monospace;
+    border-width: 0 0 7px 0;
+    border-color: rgb(60, 55, 131);
+    border-style: solid;
+    background:repeating-linear-gradient(45deg, #a396f7, #b8c3f8 10px, #a396f7 20px);
+    font-size: 35px;
+}
+
+#chatbutton:hover{
+    border-width: 7px 0 0 0;
 }
