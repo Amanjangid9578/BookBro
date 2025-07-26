@@ -224,11 +224,12 @@ body{
     justify-self: left;
     margin-left:25px;
     border-radius: 30px;
+    margin-top: 25px;
 }
 
 #bookspecificname{
     margin: 25px;
-    font-size: 40px;
+    font-size: 33px;
     font-family: monospace;
     height: 150px;
     width: 400px;
