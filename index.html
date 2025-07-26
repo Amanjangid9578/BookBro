@@ -1,53 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Buy Books</title>
-    <link rel="stylesheet" href="buybooks.css">
-</head>
+<html>
+    <head>
+        <title>BookBro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
-        <div id="logodiv">
-            <a href="index.html"><button id="back">&lt;BACK</button></a>
-            <img src="https://i.ibb.co/Bb8W012/download-1.png"></div>
-        <p id="logotext">BookBro</p>
-        <div id="div1">
-            <h2 id="tagline">'Better reads,&nbsp;&nbsp;&nbsp;<br>half the price!'</c></h2>
+        <div id="logo">
+            <img src="https://i.ibb.co/Bb8W012/download-1.png">
         </div>
-        <div id="separatordiv"></div>
-        <div id="divondiv">    
-            <div id="div2">
-                <h2 id="school">SCHOOL BOOKS</h2>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth buttonborder">5th CLASS</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">6th CLASS</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">7th CLASS</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">8th CLASS</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">9th CLASS</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">10th CLASS</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">11th CLASS</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth buttonborderbottom">12th CLASS</button></a>
+        <p id="logotxt">BookBro</p>
+        <div id="maindiv">
+            <div id="divtopblank">
             </div>
-             <div id="div3">
-                <h2 id="college">COLLEGE BOOKS</h2>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth buttonborder">Btech 1st year</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">Btech 2nd year</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">Btech 3rd year</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">Btech 4th year</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth">Mtech 1st year</button></a>
-                <a href="https://i.ibb.co/8D7ffZZ1/Currently-unavailable-page-0001.jpg"><button class="fifth buttonborderbottom">Mtech 2nd year</button></a>
+            <div id="buttontop">
+            <h2 id="chooseoption"><br>CHOOSE AN OPTION.</h2>
+            </div>
+            <div id="divbuttonback">
+            <a href="buybooks.html"><button id="butt1">⇘BUY BOOKS</button></a><br>
+            <a href="sellbooks.html"><button id="butt2">SELL BOOKS⇗</button></a>
             </div>
         </div>
-        <h2 id="note">Note:<br>if the button doesn't work,<br>it means there are no books available.</h2>
-        <main>
-            <div id="mainbox">
-                <h2 id="jee">JEE BOOKS</h2>
+        <p id="quote">Buy smart.<br>Sell sustainably.<br>Read endlessly.</p>
+        <p id="scroll">⇩SCROLL</p>
+        <div class="aligncenter">
+            <div id="contents">
+                <h1 id="area">Top books in Area</h1>
                 <!-- 1st book -->
-                <div id="bookspecificdiv">
-                    <img id="bookspecificimage" src="https://i.ibb.co/dsb2Xtwg/product-jpeg-500x500square.jpg">
-                    <p id="bookspecificname">Motion JEE Mains + Advanced modules.<br>Phy.+Chem.+Maths.</p>
-                    <h2 class="rate">₹499</h2>
-                    <button id="chatbutton">⇱CHAT</button>
-                </div>
+                <div id="bookname">
+                    <h2 id="jee">JEE BOOKS</h2>
+                    <div id="bookspecificdiv">
+                        <img id="bookspecificimage" src="https://i.ibb.co/dsb2Xtwg/product-jpeg-500x500square.jpg">
+                        <p id="bookspecificname">Motion JEE Mains + Advanced modules.<br>Phy.+Chem.+Maths.</p>
+                        <h2 class="rate">₹499</h2>
+                        <button id="chatbutton">⇱CHAT</button>
+                    </div>
                 <!-- 2nd book -->
-                <div id="bookspecificdiv">
+                    <div id="bookspecificdiv">
                         <img id="bookspecificimage" src="https://i.ibb.co/MypyMFxh/Screenshot-2025-07-26-150608.png">
                         <p id="bookspecificname">Arihant JEE Mains test drive.<br>15 practice tests.</p>
                         <h2 class="rate">₹160</h2>
@@ -60,7 +47,8 @@
                         <h2 class="rate">₹600</h2>
                         <button id="chatbutton">⇱CHAT</button>
                     </div>
+                </div>
             </div>
-        </main>
-</body>
+        </div>
+    </body>
 </html>
