@@ -279,12 +279,13 @@ main{
     width: 230px;
     justify-self: left;
     margin-left:25px;
+    margin-top: 25px;
     border-radius: 30px;
 }
 
 #bookspecificname{
     margin: 25px;
-    font-size: 40px;
+    font-size: 35px;
     font-family: monospace;
     height: 150px;
     width: 400px;
