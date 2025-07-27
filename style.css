@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
 }
@@ -6,13 +10,34 @@ body{
     background:repeating-radial-gradient(circle, #959df7, #c9c6f3 5px, #959df7 10px);
 }
 
-#logo{
+#logodiv{
     width: 100%;
     height: 170px;
     background:linear-gradient(to bottom, #7f89f5, #9890fd);
 }
 
-#logoimg{
+#scrolltovid{
+    position: absolute;
+    margin: 30px;
+    right: 0;
+    width: 270px;
+    height: 60px;
+    font-family: monospace;
+    font-size: 30px;
+    border-radius: 30px;
+    border-width: 4px 0 0 0;
+    border-color: rgb(68, 61, 171);
+    border-style: solid;
+    background: #717cf9;
+    color: #292363;
+    padding-bottom: 10px;
+}
+
+#scrolltovid:hover{
+    border-width: 6px 0 0 0;
+}
+
+#logo{
     width: 140px;
     display: block;
     margin: auto;
@@ -51,8 +76,8 @@ body{
     height: 130px;
     border-radius: 90px 90px 0 0 ;
     border-color: #735fc1;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-family: monospace;
     background-color: rgb(176, 191, 245);
     display: block;
     margin: auto;
@@ -71,8 +96,8 @@ body{
     border-radius: 0 0 90px 90px ;
     border: 1;
     border-width: 2;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-family: monospace;
     background-color: rgb(176, 191, 245);
     display: block;
     margin: auto;
@@ -123,7 +148,8 @@ body{
 
 #scroll{
     position: fixed;
-    background:repeating-linear-gradient(45deg, #a396f7, #b8c3f8 10px, #a396f7 20px);
+    background: #b5abf6;
+    color: #2e2a58;
     width: 200px;
     height: 60px;
     font-size: 40px;
@@ -131,7 +157,7 @@ body{
     text-align: center;
     padding-top: 12px;
     font-family: monospace;
-    border-width: 0 0 10px 0;
+    border-width: 0 0 7px 0;
     border-color: rgb(60, 55, 131);
     border-style: solid;
     z-index: 9999;
@@ -139,6 +165,7 @@ body{
     right: 0;
     margin: 35px;
     animation: jump 0.6s ease-out;
+    opacity: 0.7;
 }
 
 @keyframes jump {
@@ -150,9 +177,8 @@ body{
 }
 
 #contents{
-    height: 2000px;
     width: 850px;
-    background:linear-gradient(to bottom, #8985fc, #8985fc);
+    background: #8985fc;
     border-radius: 100px;
     border-width: 10px 0 0 0;
     border-color: rgb(28, 23, 101);
@@ -187,7 +213,6 @@ body{
 
 #bookname{
     width: 830px;
-    height: 1750px;
     border-radius: 70px;
     margin-top: 190px;
 }
@@ -224,12 +249,11 @@ body{
     justify-self: left;
     margin-left:25px;
     border-radius: 30px;
-    margin-top: 25px;
 }
 
 #bookspecificname{
     margin: 25px;
-    font-size: 33px;
+    font-size: 40px;
     font-family: monospace;
     height: 150px;
     width: 400px;
@@ -250,15 +274,73 @@ body{
     margin-left: 500px;
     height: 75px;
     width: 150px;
-    border-radius: 50px;
+    border-radius: 5px;
     font-family: monospace;
     border-width: 0 0 7px 0;
     border-color: rgb(60, 55, 131);
     border-style: solid;
-    background:repeating-linear-gradient(45deg, #a396f7, #b8c3f8 10px, #a396f7 20px);
+    background:repeating-linear-gradient(45deg, #aca0fa, #b8c3f8 10px, #ab9efc 20px);
     font-size: 35px;
 }
 
 #chatbutton:hover{
     border-width: 7px 0 0 0;
+    border-color: #7875dc;
+}
+
+#morebooksbutton{
+    width: 330px;
+    height: 70px;
+    font-size: 40px;
+    font-family: monospace;
+    color: rgb(9, 22, 65);
+    margin-bottom: 40px;
+    margin-left: 250px;
+    border-radius: 5px;
+    border-width: 0 0 7px 0;
+    border-color: rgb(60, 55, 131);
+    border-style: solid;
+    background:repeating-linear-gradient(45deg, #a396f7, #b8c3f8 10px, #a396f7 20px);
+}
+
+#morebooksbutton:hover{
+    border-width: 7px 0 0 0;
+    border-color: #8985fc;
+}
+
+.exploremoretext{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    color: rgb(9, 22, 65);
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+#videodiv{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background: #8985fc;
+    width: 800px;
+    height: 545px;
+    justify-self: center;
+    border-radius: 80px;
+    border-width: 0 7px 7px 0;
+    border-color: rgb(60, 55, 131);
+    border-style: solid;
+}
+
+#infovideotext{
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: rgb(9, 22, 65);
+    margin-top: 22px;
+    margin-bottom: 15px;
+    position: absolute;
+}
+
+#infovideo{
+    border-radius: 50px;
+    margin-top: 100px;
 }
