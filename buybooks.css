@@ -42,12 +42,11 @@ body{
 
 #logodiv{
     width: 100%;
-    height: 170px;
     background:linear-gradient(to bottom, #7f89f5, #9890fd);
 }
 
 #back{
-    position: fixed;
+    position: absolute;
     margin-top: 30px;
     margin-left: 30px;
     width: 110px;
@@ -66,37 +65,46 @@ body{
     border-width: 5px 0 0 0;
 }
 
-img{
-    width: 140px;
-    display: block;
-    margin: auto;
-    bottom: 0%;
+#darkmodeicon{
+    width: 50px;
 }
 
-img:hover{
-    animation: zoomFade 0.6s ease forwards;
-  opacity: 0;
-  transform: scale(0.9);
+#darkmodebutton{
+    position:absolute;
+    border-radius: 30px;
+    background: #9198e5;
+    border-width: 0 0 4px 0;
+    border-color: rgb(68, 61, 171);
+    border-style: solid;
+    right: 0;
+    margin-right: 35px;
+    margin-top: 30px;
+    width: 100px;
+    height: 60px;
 }
 
-@keyframes zoomFade {
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+#darkmodebutton:hover{
+    border-width: 4px 0 0 0;
+    border-color: #6d73dc;
 }
 
 #logotext{
-    font-size: 100px;
+    font-size: 120px;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #2e2a58;
-    background: linear-gradient(to bottom, #9890fd, #a9b0fd);
+    font-family: Hoover;
+    color: #36197b;
+    background: linear-gradient(to bottom, #6d73dc, #858ef7);
     margin: 0%;
     border-radius: 0 0 80px 80px ;
     border-width: 0 0 8px 0;
     border-color: rgb(60, 54, 114);
     border-style: solid;
+    font-weight: bold;
+    text-shadow: 
+      0px 0px 0 whitesmoke,
+       0px 0px 0 whitesmoke,
+      0px  0px 0 whitesmoke,
+       3px  3px 0 whitesmoke;
 }
 
 #tagline{
@@ -105,9 +113,9 @@ img:hover{
     border-radius: 60px;
     margin-top: 0px;
     padding-top: 15px;
-    font-size: 50px;
+    font-size: 55px;
     color: #090231;
-    font-family: monospace;
+    font-family: hoover;
 }
 
 #div1{
@@ -118,7 +126,7 @@ img:hover{
     width: 550px;
     display: block;
     margin: auto;
-    height: 170px;
+    height: 190px;
     border-radius: 0 0 70px 70px;
     border-width: 0 0 8px 0;
     border-color: rgb(59, 57, 114);
@@ -130,7 +138,8 @@ img:hover{
 }
 
 #school{
-    font-size: 40px;
+    font-size: 45px;
+    font-family: hoover;
     background: #6a66d2;
     text-align: center;
     height: 80px;
@@ -143,7 +152,7 @@ img:hover{
     color: #201b4b;
     margin-top: 20px;
     margin-left: 20px;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 0px;
 }
 
@@ -168,7 +177,8 @@ img:hover{
 }
 
 #college{
-    font-size: 40px;
+    font-size: 45px;
+    font-family: hoover;
     background: #6a66d2;
     text-align: center;
     width: 400px;
@@ -180,7 +190,7 @@ img:hover{
     border-style: solid;
     color: #201b4b;
     margin-right: 0px;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 0px;
 }
 
@@ -198,10 +208,8 @@ img:hover{
     width: 300px;
     height: 100px;
     text-align: center;
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    /* border-radius: 50px; */
+    font-size: 40px;
+    font-family: 'hoover';
     margin: 20px;
     background: rgb(162, 160, 252);
     display: block;
@@ -211,6 +219,7 @@ img:hover{
     border-color: #433579;
     border-style: solid;
     margin-left: 61px;
+    text-decoration: underline rgb(162, 160, 252);
 }
 
 .fifth:hover{
@@ -248,23 +257,30 @@ main{
     border-color: rgb(59, 45, 92);
     border-style: solid;
     margin-top: 40px;
+    margin-bottom: 70px;
 }
 
 #jee{
-    font-size: 40px;
-    background: #6a66d2;
+    font-size: 50px;
+    background:radial-gradient( circle , #5049e1, #8a8aea , #5049e1);
     text-align: center;
     height: 70px;
-    width: 765px;
+    width: 450px;
     border-radius: 60px;
     border-width: 7px 0 0 0;
     border-color: rgb(28, 23, 101);
     border-style: solid;
-    color: #201b4b;
+    color: #ffffff;
     margin-top: 30px;
-    margin-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 0px;
+    margin-left: 185px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: hoover;
+    text-shadow: 
+      0px 0px 0 black,
+       0px 0px 0 black,
+      0px  0px 0 black,
+       2px  2px 0 black;
 }
 
 #bookspecificdiv{
@@ -319,11 +335,32 @@ main{
     border-width: 7px 0 0 0;
 }
 
-.exploremoretext{
-    text-align: center;
+#morebooksbutton{
+    width: 330px;
+    height: 70px;
     font-size: 40px;
     font-family: monospace;
-    color: rgb(9, 22, 65);
+    color: rgb(38, 38, 38);
+    margin-bottom: 40px;
+    margin-left: 250px;
+    border-radius: 5px;
+    border-width: 0 0 7px 0;
+    border-color: rgb(71, 56, 109);
+    border-style: solid;
+    background:repeating-linear-gradient(45deg, #7e80f5, #97acf9 10px, #7a7afa 20px);
+}
+
+#morebooksbutton:hover{
+    border-width: 7px 0 0 0;
+    border-color: #2c2c2d;
+    font-family: hoover;
+}
+
+.exploremoretext{
+    text-align: center;
+    font-size: 50px;
+    font-family: kola;
+    color: rgb(32, 32, 47);
     margin-top: 40px;
     margin-bottom: 15px;
 }

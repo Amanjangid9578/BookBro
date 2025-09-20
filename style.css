@@ -12,15 +12,16 @@ body{
 
 #logodiv{
     width: 100%;
-    height: 170px;
-    background:linear-gradient(to bottom, #7f89f5, #9890fd);
+    /* height: 170px; */
+    background:linear-gradient(to bottom, #5a66ec, #6d73dc);
+    margin-bottom: 0;
 }
 
 #scrolltovid{
     position: absolute;
     margin: 30px;
     right: 0;
-    width: 270px;
+    width: 180px;
     height: 60px;
     font-family: monospace;
     font-size: 30px;
@@ -33,6 +34,28 @@ body{
     padding-bottom: 10px;
 }
 
+#darkmodeicon{
+    width: 50px;
+}
+
+#darkmodebutton{
+    position:absolute;
+    border-radius: 30px;
+    background: #9198e5;
+    border-width: 0 0 4px 0;
+    border-color: rgb(68, 61, 171);
+    border-style: solid;
+    margin-left: 35px;
+    margin-top: 30px;
+    width: 100px;
+    height: 60px;
+}
+
+#darkmodebutton:hover{
+    border-width: 4px 0 0 0;
+    border-color: #6d73dc;
+}
+
 #scrolltovid:hover{
     border-width: 6px 0 0 0;
 }
@@ -42,22 +65,27 @@ body{
     display: block;
     margin: auto;
     bottom: 0%;
-    /* background: linear-gradient(to bottom, rgb(236, 210, 175), rgb(245, 238, 229)); */
     justify-content: center;
     align-items: center;
 }
 
 #logotxt{
-    font-size: 100px;
+    font-size: 120px;
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #2e2a58;
-    background: linear-gradient(to bottom, #9890fd, #a9b0fd);
+    font-family: Hoover;
+    color: #36197b;
+    background: linear-gradient(to bottom, #6d73dc, #858ef7);
     margin: 0%;
     border-radius: 0 0 80px 80px ;
     border-width: 0 0 8px 0;
     border-color: rgb(60, 54, 114);
     border-style: solid;
+    font-weight: bold;
+    text-shadow: 
+      0px 0px 0 whitesmoke,
+       0px 0px 0 whitesmoke,
+      0px  0px 0 whitesmoke,
+       3px  3px 0 whitesmoke;
 }
 
 #buttontop{
@@ -74,15 +102,23 @@ body{
     width: 650px;
     margin-top: 30px;
     height: 130px;
-    border-radius: 90px 90px 0 0 ;
+    border-radius: 90px 90px 20px 20px ;
     border-color: #735fc1;
-    font-size: 60px;
-    font-family: monospace;
+    font-size: 65px;
+    font-family: hoover;
     background-color: rgb(176, 191, 245);
     display: block;
     margin: auto;
     margin-bottom: 0px;
     border-width: 0 0 10px 0;
+    text-decoration: underline rgb(176, 191, 245);
+    text-shadow: 
+      0px 0px 0 whitesmoke,
+       0px 0px 0 whitesmoke,
+      0px  0px 0 whitesmoke,
+       1px  2px 0 whitesmoke;
+    font-weight: bold;
+    color: #1b2380;
 }
 
 #butt1:hover{
@@ -93,16 +129,24 @@ body{
 #butt2{
     width: 650px;
     height: 130px;
-    border-radius: 0 0 90px 90px ;
+    border-radius: 20px 20px 90px 90px ;
     border: 1;
     border-width: 2;
-    font-size: 60px;
-    font-family: monospace;
+    font-size: 65px;
+    font-family: hoover;
     background-color: rgb(176, 191, 245);
     display: block;
     margin: auto;
     border-width: 0 0 10px 0;
     border-color: #735fc1;
+    text-decoration: underline rgb(176, 191, 245);
+    text-shadow: 
+      0px 0px 0 whitesmoke,
+       0px 0px 0 whitesmoke,
+      0px  0px 0 whitesmoke,
+       1px  2px 0 whitesmoke;
+    font-weight: bold;
+    color: #1b2380;
 }
 
 #butt2:hover{
@@ -132,16 +176,18 @@ body{
 
 #chooseoption{
     text-align: center;
-    margin: 0;
-    font-family: monospace;
-    color: #3d376c;
+    margin-left: 200px;
+    top: 140px;
+    font-family: kola;
+    position: absolute;
+    color: #43267d;
     font-size:40px;
 }
 
 #quote{
     text-align: center;
     font-size: 60px;
-    font-family: monospace;
+    font-family: kola;
     color: rgb(15, 29, 75);
     margin-top: 50px;
 }
@@ -198,44 +244,51 @@ body{
     font-size: 60px;
     color: #201b4b;
     text-align: center;
-    margin-top: 20px;
-    background: #6a66d2;
-    width: 790px;
+    font-size: 62px;
+    margin-top: 35px;
+    background:repeating-linear-gradient( 45deg , #818aef, #c9c6f3 5px, #606df9 10px);    width: 790px;
     position:absolute;
     height: 100px;
-    padding-top:30px;
-    border-radius: 80px;
-    border-width: 10px 0 0 0;
+    padding-top:0px;
+    border-radius: 70px 70px 30px 30px;
+    border-width: 0 0 8px 0;
     border-color: rgb(28, 23, 101);
     border-style: solid;
-    font-family: monospace;
+    font-family: hoover;
+    width: 775px;
 }
 
 #bookname{
     width: 830px;
     border-radius: 70px;
-    margin-top: 190px;
+    margin-top: 130px;
 }
 
 #jee{
-    font-size: 40px;
-    background: #6a66d2;
+    font-size: 50px;
+    background:radial-gradient( circle , #3946d8, #7168e7 , #4f5be2);
     text-align: center;
     height: 70px;
-    width: 765px;
+    width: 450px;
     border-radius: 60px;
     border-width: 7px 0 0 0;
     border-color: rgb(28, 23, 101);
     border-style: solid;
-    color: #201b4b;
+    color: #cdc9f5;
     margin-top: 30px;
-    margin-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 0px;
+    margin-left: 185px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: kola;
+    text-shadow: 
+      0px 0px 0 black,
+       0px 0px 0 black,
+      0px  0px 0 black,
+       1px  2px 0 black;
 }
 
 #bookspecificdiv{
-    margin: 30px;
+    margin: 30px; 
     background: #7875dc;
     border-radius: 50px;
     height: 280px;
@@ -276,12 +329,12 @@ body{
     height: 75px;
     width: 150px;
     border-radius: 5px;
-    font-family: monospace;
+    font-family: hoover;
     border-width: 0 0 7px 0;
     border-color: rgb(60, 55, 131);
     border-style: solid;
-    background:repeating-linear-gradient(45deg, #aca0fa, #b8c3f8 10px, #ab9efc 20px);
-    font-size: 35px;
+    background:repeating-linear-gradient(45deg , #aca0fa, #b8c3f8 10px, #ab9efc 20px);
+    font-size: 40px;
 }
 
 #chatbutton:hover{
@@ -290,7 +343,7 @@ body{
 }
 
 #morebooksbutton{
-    width: 380px;
+    width: 330px;
     height: 70px;
     font-size: 40px;
     font-family: monospace;
@@ -307,12 +360,13 @@ body{
 #morebooksbutton:hover{
     border-width: 7px 0 0 0;
     border-color: #8985fc;
+    font-family: hoover;
 }
 
 .exploremoretext{
     text-align: center;
     font-size: 40px;
-    font-family: monospace;
+    font-family: kola;
     color: rgb(9, 22, 65);
     margin-top: 40px;
     margin-bottom: 15px;
